@@ -1,10 +1,10 @@
-let x = prompt("Сергей, напишите первое число)");
-let y = prompt("Сергей, напишите второе число)");
-let z = prompt("Сергей, напишите третье число)");
-let res;
+let firstNumber = prompt("Напишите первое число)");
+let secondNumber = prompt("Напишите второе число)");
+let thirdNumber = prompt("Напишите третье число)");
+let result;
 
 
 
-res = (Number(x) + Number(y) + Number(z)) / 3;
+result = (Number(firstNumber) + Number(secondNumber) + Number(thirdNumber)) / 3;
 
-alert("Среднее арифметическое число: " + res);
+alert("Среднее арифметическое число: " + result);
